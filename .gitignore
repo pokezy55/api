@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Database files (jika Anda pakai users.json sementara)
+# KECUALI jika Anda sudah beralih ke CosmosDB
+# Jika sudah pakai CosmosDB, file users.json TIDAK lagi perlu di repo
+# Jika masih pakai users.json sementara, JANGAN tambahkan baris ini
+# users.json
